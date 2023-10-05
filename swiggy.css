@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color:white;
+}
+.mainleft{
+    width: 60%;
+    height: 500px;
+}
+.logo{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+#logoimg{
+    width: 200px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+#btnlogin{
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    font-size: 15px;
+    margin-left: 300px;
+    background-color: white;
+}
+#btnlogin a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+#btnlogin a:hover{
+    color: orangered;
+}
+#btnsign{
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#btnsign a{
+    text-decoration: none;
+    color: white;
+}
+.mainleft2{
+    width: 100%;
+    height:100px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding-left: 30px;
+    align-items: center;
+}
+.searchbox{
+    width:100%;
+    height: 64px;
+    background-color:white;
+    padding-top: 10px;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#txt{
+    width: 608px;
+    height: 58px;
+    font-size: 18px;
+    margin-left:30px ;
+    padding: 10px;
+}
+#location{
+    position: absolute;
+    left:530px;
+    margin-top: 19px;
+    border-style: none;
+    background-color: white;
+    color: rgb(105, 107, 110);
+}
+.searchbox a{
+    width: 140px;
+    height: 58px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    padding-top: 20px ;
+}
+.cities{
+    color: rgb(105, 107, 110);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.cities ul{
+    list-style: none;
+    display: inline-flex;
+    padding-top: 10px;
+}
+.cities ul a{
+    text-decoration: none;
+    color:  rgb(105, 107, 110);
+    margin: 5px;
+}
+.mainright{
+    width: 40%;
+    height: 500px;
+}
+.main2{
+    width: 100%;
+    height: 370px;
+    background-color: #2b1e16;
+    display: flex;
+    justify-content: center;
+}
+.main2card1{
+    width: 30%;
+    height: 320px;
+    text-align: center;
+}
+.main2card2{
+    width: 30%;
+    height: 320px;
+    text-align: center;
+
+}
+.main2card3{
+    width: 30%;
+    height: 320px;
+    text-align: center;
+}
+.main3{
+    width: 100%;
+    height: 570px;
+    background-color: white;
+    display: flex;
+    padding-left: 30px;
+}
+.main3card1{
+    width: 40%;
+    height:570px;
+    text-align: center;
+    padding-top: 80px;
+}
+.main3card2{
+    width: 30%;
+    height:500px;
+}
+.main3card3{
+    width: 30%;
+    height:570px;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: max-content;
+
+}
+.footer1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding-left: 20px;
+}
+.footer1 ul li{
+    list-style: none;
+}
+.footer1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.company{
+    width: 25%;
+    padding: 50px;
+    line-height: 40px;
+}
+.contact{
+    padding: 50px;
+    width: 25%;
+    line-height: 40px;
+}
+.legal{
+    width: 25%;
+    padding: 50px;
+    line-height: 40px;
+}
+.footer1btn{
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.footer1btn a img{
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.footer1btn a img:hover{
+    width: 170px;
+    height: 60px;
+}
